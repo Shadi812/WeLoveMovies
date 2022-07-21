@@ -25,7 +25,7 @@
 ### Movies
 
 - /movies
- - GET returns all columns for each movie in database
+  - GET returns all columns for each movie in database
  
 - /movies?is_showing=true
   - GET returns all columns for each movie currently showing in database
