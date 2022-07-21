@@ -6,7 +6,7 @@
 ## Built With:
 
 - Node.js
--Express.js
--Knex.js
--PostgreSQL
+- Express.js
+- Knex.js
+- PostgreSQL
 
