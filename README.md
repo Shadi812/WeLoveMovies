@@ -22,4 +22,44 @@
 
 ## Routes:
 
+### Movies
+
+- /movies
+ - GET returns all columns for each movie in database
+ 
+- /movies?is_showing=true
+  - GET returns all columns for each movie currently showing in database
+  
+- /movies/:movieId
+  - GET returns all columns for movie with specific ID
+
+- /movies/:movieId/theaters
+ - GET returns all columns for theaters where movie with specific ID is playing
+ 
+- /movies/:movieId/reviews
+  - GET returns all columns for each review of movie with specific ID
+  
+### Reviews
+
+- /reviews/:reviewId
+  - PUT updates data for review with specific ID and returns all columns for that review
+  - DELETE removes review with specific ID from database
+  
+### Theaters
+
+- /theaters
+  - GET returns all columns for each theater in database
+
+
+
+
+ 
+
+  
+
+
+
+
+
+
 
